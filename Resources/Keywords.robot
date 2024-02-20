@@ -13,6 +13,6 @@ Open URL
     Title Should Be    Swag Labs
     Input Text    id=user-name    ${logindata.username}
     Input Text    id=password    ${logindata.password}
-    Click Button    id=login
+    Click Button    id=login-button
 
   
