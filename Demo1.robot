@@ -7,7 +7,7 @@ Test Teardown     End Test Setup
 *** Test Cases ***
 Testcase1
     Open URL
-    Sleep    2
+    Sleep    1
     Click Element    xpath=//*[@id="header_container"]/div[2]/div/span/select
     Sleep    2
     Click Element    xpath=//*[@id="header_container"]/div[2]/div/span/select/option[2]
