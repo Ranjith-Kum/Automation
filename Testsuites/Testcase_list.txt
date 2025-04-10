@@ -1,0 +1,54 @@
+# One Touch Switch Automation Test Cases
+
+TC001 - Validate successful generation of Gaining Provider Initial Request message
+TC002 - Verify mandatory fields in Hub Validation Response message
+TC003 - Test handling of invalid Hub Validation Response error codes
+TC004 - Validate Switch Request message format and content 
+TC005 - Test Processing of Switch Response message with successful validation
+TC006 - Verify Switch Response error handling for invalid requests
+TC007 - Validate Cancel Request message structure and mandatory fields
+TC008 - Test Cancel Response message processing for valid cancellation
+TC009 - Verify Cancel Response error handling scenarios
+TC010 - Validate Switch Complete Notification message format
+TC011 - Test Switch Status Update Request message handling
+TC012 - Verify Switch Status Update Response message processing
+TC013 - Test Gaining Provider Initial Request with missing mandatory fields
+TC014 - Validate date format validation in all relevant messages
+TC015 - Test message correlation ID consistency across transaction flow
+TC016 - Verify API endpoint connectivity for all message types
+TC017 - Test message retry mechanism for failed requests
+TC018 - Validate schema compliance for all message types
+TC019 - Test end-to-end switch flow with valid data
+TC020 - Verify switch flow with cancellation scenario
+
+# Data Validation Test Cases
+
+TC021 - Validate mobile number format validation
+TC022 - Test postcode format validation
+TC023 - Verify CLI/Account number format validation
+TC024 - Test email address format validation
+TC025 - Validate SwitchDate format and business rules
+
+# Error Handling Test Cases
+
+TC026 - Test system behavior for timeout scenarios
+TC027 - Verify error handling for network connectivity issues
+TC028 - Test system response for invalid message format
+TC029 - Validate error logging for failed transactions
+TC030 - Test error recovery mechanisms
+
+# Performance Test Cases
+
+TC031 - Verify message processing time under normal load
+TC032 - Test system performance under peak load conditions
+TC033 - Validate concurrent message processing capability
+TC034 - Test system recovery after excessive load
+
+# Security Test Cases
+
+TC035 - Validate message encryption
+TC036 - Test authentication mechanism
+TC037 - Verify authorization controls
+TC038 - Test API security measures
+TC039 - Validate secure data transmission
+TC040 - Verify audit trail logging

@@ -1,0 +1,47 @@
+{
+    "envelope": {
+        "source": {
+            "type": "RCPID",
+            "identity": "${GRCP_CPID}",
+            "correlationID": "mpcsn2024_02_13"
+                    },
+        "destination": {
+            "type": "RCPID",
+            "identity":"${LRCP_CPID}",
+            "correlationID": "mpctn2024_02_13"
+        },
+        
+        "routingID": "residentialSwitchMatchRequest"
+    },
+    "residentialSwitchMatchRequest": {
+        "grcpBrandName": "Freds Communications Ltd (Telesales)",
+        "name": "RAA",
+        "account": "20001",
+        "address": {
+            "uprn": "10001",
+            "subBuildingName":"Apa1",
+            "buildingName":"Build1",
+            "buildingNumber":"Num1",
+            "dependentThoroughgfare":"DTfare1",
+            "thoroughgfare":"Tfare1",
+            "doubleDependentLocality":"Ddlocala",
+            "dependentLocality":"Dlocala",
+            "postTown": "bba",
+            "postCode": "SW01 0BB"
+        },
+        "services": [
+            {
+                "serviceType": "IAS",
+                "serviceIdentifier": "ONTONT1234567801",
+                "action": "cease"
+            },
+            {
+                "serviceType": "NBICS",
+                "serviceIdentifier": "02890042006",
+                "action": "port"
+            }
+ 
+            
+        ]
+    }
+}
